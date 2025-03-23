@@ -1,0 +1,278 @@
+html
+{
+    background-color: #BAE5B8;
+}
+
+br
+{
+    display:block;
+    clear:both;
+    margin-top:10px;
+}
+
+h1
+{
+    font-family: "ADLaM Display", serif, Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #46A4C4;
+    line-height: normal;
+    font-size:100px;
+}
+
+h1 em
+{
+    font-style: normal;
+    font-size:larger;
+    color: #FAEA4B;
+    text-shadow:
+    -4px -4px 0 #FABF52,
+    4px -4px 0 #FABF52,
+    -4px 4px 0 #FABF52,
+    4px 4px 0 #FABF52;
+}
+
+h2 em
+{
+    font-style: normal;
+    font-size:larger;
+    color: #FAEA4B;
+}
+
+
+h2
+{
+    font-family: "ADLaM Display", serif, Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #46A4C4;
+    line-height: normal;
+}
+
+h3
+{
+    font-family: "ADLaM Display", serif, Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #46A4C4;
+    line-height: normal;
+}
+
+p
+{
+    font-family: "ADLaM Display", serif, Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #46A4C4;
+    line-height: normal;
+}
+
+.banner img
+{
+    width: 100%;
+}
+
+nav
+{
+    background-image: url("images/banner.png");
+    width: 100%;
+    height: 140px;
+}
+
+nav h2{
+    float:left;
+    margin-top: 15px;
+    margin-left:15px;
+}
+
+
+nav h3
+{
+    float:right;
+    margin-top: 15px;
+    margin-right:15px;
+}
+
+nav em
+{
+    font-style: normal;
+    font-size:larger;
+    color:#46A4C4;
+}
+
+header
+{
+    margin-top: -60px;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    width:40%;
+}
+
+.learnMore
+{
+    margin-top:40px;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    width:50%;
+}
+
+.learnMore h3
+{
+    margin-left:10%;
+}
+
+.storyboard
+{
+    margin-top:40px;
+    width:70%;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom: 40px;
+}
+
+.storyboard img
+{
+    width: 100%;
+}
+
+/*------- GAME!!!!!! --------*/
+
+.example img
+{
+    margin:10px;
+    width: 100%;
+    margin-left:8%;
+}
+
+.example
+{
+    display:block;
+    width:700px;
+    margin-left:auto;
+    margin-right: auto;
+    margin-top: -200px;
+}
+
+button
+{
+    border:none;
+    background-color: #8ADB6B;
+    padding:10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size:30px;
+    font-family: "ADLaM Display", serif, Arial, Helvetica, sans-serif;
+    margin: 10px;
+    border-radius: 14px;
+    filter: drop-shadow(-1px 2px 0px #075313);
+    color: #FAEA4B;
+}
+
+.LRTriggerButtons
+{
+    width: 50px;
+    margin-left:70px;
+}
+
+.LRTriggerButtons button:hover
+{
+    background-color: #85d067;
+    filter: drop-shadow(0px 0px 0px #075313);
+    margin-left: 9px;
+    margin-top: 10px;
+    margin-right: 11px;
+}
+
+.buttonL
+{
+    background-color: #8ADB6B;
+}
+
+.buttonR
+{
+    background-color: #74C1DC;
+}
+
+.buttonR button:hover
+{
+    background-color: #6fb3cc;
+}
+
+
+
+/*----------ABOUT !!!JH!!JEOWFJOEIDFJLK ABOUT! ABOUT! ----------*/
+
+.aboutHead
+{
+    display:block;
+    margin-top:24px;
+    width:40%;
+    text-align:center;
+    margin-right:auto;
+    margin-left:auto;
+}
+
+.profileColumns
+{
+    padding-top: 40px;
+}
+
+.profileColumns section
+{
+    width: 35%;
+    background-color: #fffef6;
+    padding:10px;
+    padding-bottom: 30px;
+    border-radius: 20px;
+    margin-bottom: 60px;
+}
+
+.profileColumns h2
+{
+    display:block;
+    width:50%;
+    font-style:none;
+    text-decoration: none;
+    margin-right:auto;
+    margin-left:auto;
+    text-align: center;
+}
+
+
+
+.profileColumns img
+{
+    display:block;
+    object-fit: cover;
+    width: 250px;
+    height: 250px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:20px;
+    margin-bottom:20px;
+}
+
+.giannap
+{
+    float:left;
+    margin-left: 10%;
+}
+
+.giannap p
+{
+    padding:15px;
+}
+
+.zionnab
+{
+    float:left;
+    margin-left: 10%;
+}
+
+.zionnab p
+{
+    padding:15px;
+}

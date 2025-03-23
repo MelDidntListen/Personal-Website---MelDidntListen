@@ -1,0 +1,371 @@
+html 
+{
+    height: 100%;
+    width: 100%;
+    background-color: #4C3B4D;
+    color: #F5F3FD;
+}
+
+
+nav
+{
+    padding: 10px !important;
+    background-color: #9D8BC5;
+    width: 100% !important;
+    float:right;
+    margin-top: 0% !important;
+    position: fixed !important;
+    margin-left:-1%!important;
+    height:40px !important;
+}
+
+nav a
+{
+    margin-right:15px;
+}
+
+.navParticular
+{
+    margin-right: 15px;
+}
+
+header
+{
+    padding-top:34px;
+}
+a
+{
+    text-decoration: none;
+    color: #F5F3FD;
+    text-align: right;
+    float:right;
+    padding-left:2%;
+}
+
+a:hover
+{
+    color: #e8e5f1;
+}
+
+body
+{
+    line-height: 2em;
+}
+
+hr 
+{
+    width:700px;
+}
+
+button
+{
+    text-decoration: none;
+    background-color: #7B3050;
+    color: #F5F3FD;
+    padding: 12px;
+    padding-left:20px;
+    padding-right:20px;
+    border-radius: 20px;
+    margin-left: 5%;
+    margin-right: 5%;
+    border:none;
+}
+
+.button
+{
+    text-decoration: none;
+    background-color: #7B3050;
+    color: #F5F3FD;
+    padding: 12px;
+    padding-left:20px;
+    padding-right:20px;
+    border-radius: 20px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.button:hover
+{
+    background-color: #6b2946;
+}
+
+button:hover
+{
+    background-color: #6b2946;
+}
+
+footer
+{
+    margin-top: 4%;
+    background-color: #297A75;
+    text-align: center;
+    width: 100%;
+    padding-top: 2%;
+    padding-bottom: 1.5%;
+    clear:both;
+}
+
+br 
+{
+  display: block;
+  margin: 10px 0;
+  line-height:22px;
+  content: " ";
+}
+
+/*==============Desktop view==============
+
+@media screen 
+and (min-width:800px)
+{*/
+.iWin
+{
+    width:800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*===========================/[ text ]\==========================*/
+
+h1
+{
+    padding:2%;
+    font-family: Forum, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    font-size: xx-large;
+    margin-top:40px;
+    margin-bottom:-10px;
+}
+
+h2
+{
+    font-family: Forum, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+h3
+{
+    line-height: normal;
+    font-family: Taviraj, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 500;
+    font-size:larger;
+}
+
+h4
+{
+    line-height: normal;
+    font-family: Forum, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+h5
+{
+    line-height: normal;
+    font-family: Taviraj, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+p
+{
+    line-height: 28px;
+    font-family: Cambo, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 18px;
+}
+
+p em
+{
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    font-size:16px;
+}
+
+a
+{
+    line-height: normal;
+}
+
+p a
+{
+    font-size: 16px;
+    line-height: 12px;
+    color: #4e496b;
+    float:none;
+    margin:none;
+    padding:none;
+    text-decoration:underline;
+    margin-left:-2%;
+}
+
+p a:hover
+{
+    color: #968ada;
+}
+
+h1 a
+{
+    padding:2%;
+    font-weight: bold;
+    font-size: xx-large;
+    margin-top:40px;
+    margin-bottom:-10px;
+}
+
+/*===========================/[ Soap ]\==========================*/
+/**/
+/**/
+/**/
+/**/
+
+
+.soapArticle .iWin
+{
+    padding-top: 60px;
+    background-color: white;
+}
+
+.soapArticle p
+{
+    color: #4C3B4D;
+    padding:50px;
+    padding-top:10px;
+}
+
+.soapArticle h1
+{
+    color: #4C3B4D;
+    padding-left:50px;
+    padding-right:50px;
+    padding-top:10px;
+}
+
+.soapArticle h2
+{
+    color: #4C3B4D;
+    padding-left:50px;
+    padding-right:50px;
+}
+
+.soapArticle h3
+{
+    color: #4C3B4D;
+    padding-left:50px;
+    padding-right:50px;
+}
+
+img
+{
+    width: 100%;
+}
+
+
+.minigameDesign img
+{
+    width: 700px;
+    margin-left:50px;
+    margin-right:50px;
+}
+
+.demoSetting img
+{
+    width: 700px;
+    margin-left:50px;
+    margin-right:50px;
+    margin-bottom: -10px;
+}
+
+.narrativeDesign img
+{
+    width: 700px;
+    margin-left:50px;
+    margin-right:50px;
+    margin-bottom: -10px;
+}
+
+.pumpkin img
+{
+    width:300px;
+    float: left;
+}
+
+
+/*===========================/[ Orzyn ]\==========================*/
+/**/
+/**/
+/**/
+/**/
+
+
+.orzynArticle .iWin
+{
+    padding-top: 34px;
+    background-color: white;
+}
+
+.orzynArticle p
+{
+    color: #4C3B4D;
+    padding:50px;
+    padding-top:10px;
+}
+
+.orzynArticle h1
+{
+    color: #4C3B4D;
+    padding-left:50px;
+    padding-right:50px;
+    padding-top:10px;
+}
+
+.orzynArticle h2
+{
+    color: #4C3B4D;
+    padding-left:50px;
+    padding-right:50px;
+}
+
+.orzynArticle h3
+{
+    color: #4C3B4D;
+    padding-left:50px;
+    padding-right:50px;
+}
+
+.orzynArticle h4
+{
+    color: #4C3B4D;
+    padding-left:50px;
+    padding-right:50px;
+}
+
+.orzynArticle ul
+{
+    color: #4C3B4D;
+    padding-left:100px;
+    padding-right:50px;
+    padding-bottom:20px;
+}
+
+img
+{
+    width: 700px;
+    margin-left:50px;
+    margin-right:50px;
+}
+
+
+
+/*===========================/[ end format ]\==========================*/
+/**/
+/**/
+/**/
+/**/
+.center
+{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.clear
+{
+    clear:both;
+}

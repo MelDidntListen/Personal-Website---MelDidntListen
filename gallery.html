@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>MelodyDL &#124; Gallery</title>
+    <link rel="icon" type="image/x-icon" href="/images/mdlSip.png">
+
+    <!--Font References-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Cambo&family=Forum&family=Taviraj:ital,wght@0,200;0,
+    400;0,500;0,600;1,200&display=swap" rel="stylesheet"> -->
+
+    <script src="javascript/gallery.js" defer></script>
+    <script src="javascript/gallery_interact.js" defer></script>
+    <link href="normalize.css" rel="stylesheet" type="text/css"/>
+    <link href="style.css" rel="stylesheet" type="text/css"/>
+    <link href="galleryStyle.css" rel="stylesheet" type="text/css"/>
+
+    <meta name="mobileView"
+    content="initial-scale=1.0
+    width=device-width" />
+</head>
+
+<body>
+
+  <section class="modal">
+    <button class="close" id="bgButton"> </button>
+
+    <div class="modalHead">
+
+      <div class="closeButtonSection">
+        <button class="close">X</button>
+      </div>
+
+      <div class="modalHeadText">
+        <h1><span id="titleOfPiece">Title of Piece</span></h1>
+          <div class="tags">
+            <!-- 
+            Tags go here... 
+            when i figure out how to display that 
+            -->
+          </div>
+      </div>
+
+    </div>
+
+    <section class="imageArea">
+      <div class="sideArrow">
+        <button class="sideArrowButton" id="prevButton">&#8592;</button>
+      </div>
+      <div class="mainImgDiv">
+        <img id="mainImg" src=" " >
+      </div>
+      <div class="sideArrow">
+        <button class="sideArrowButton" id="nextButton">&#8594;</button>
+      </div>
+    </section>
+  
+  </section>
+
+<nav>
+  <br>
+    <section class=navParticular>
+      <a href="linktree.html">Links</button>
+      <a href="gallery.html"><u>Artwork</u></button>
+      <a href="projects.html">Projects</button>
+      <a href="index.html">Home</button>
+    </section>
+</nav>
+
+<header>
+    <img src="images/header.png" alt="Header illustration of Melody with a frilly umbrella in a forest where stars hang from the branches. This is drawn in a cartoony style to convey a feeling of whimsy and mystery.">
+</header>
+
+<div class="mobileTopMargin"><p></p> </div>
+
+<section class="iWin"> 
+<h1>Artwork Gallery</h1>
+
+<!--Add filter menu here
++content+
+Character, Environment, Reference sheets, poster, process
+
++Medium+
+Sketch, digital, traditional, animation, pixel
+
++genre+
+fantasy, fantasy, horror, cozy, 
+
++prokects+
+Orzyn, Soap Opera, Violet & Evaline, ArtFight, TTRPG, 
+
++Program+
+['Photoshop' , 'Lightroom', 'Blender', 'Medibang']
+
+let pieces = document.querySelectorAll('blender')
+pieces.forEach ((piece) => {piece.style.display = none;})
+
+^ event 
+
++Date made+
+first to last
+last to first
+
+
+<br>
+<h4>Filter items: [Coming soon! This page is currently in the process of optimization]</h4>
+<a class="button">Best Work</button>-->
+<br class="clear">
+
+<section class="galleryPage">
+
+  <button id="pasta valentines" class="clickArt"><img src="images/gallery/thumbnails/Valentines Day pic.jpg"></button>
+  <button id="jellyPoster" class="clickArt"><img src="images/gallery/thumbnails/PurpleStripedJellyPoster.jpg"></button>
+  <button id="jelly" class="clickArt"><img src="images/gallery/thumbnails/PurpleStripedJelly.jpg"></button>
+  <button id="tasteOf" class="clickArt"><img src="images/gallery/thumbnails/toc storyboard.jpg"></button>
+  <button id="silverTorii" class="clickArt"><img src="images/gallery/thumbnails/SL_pinterestpractice.jpg" class="best"></button>
+  <button id="redDoor" class="clickArt"><img src="images/gallery/thumbnails/red door.jpg"></button>
+  <button id="Nez Perce" class="clickArt"><img src="images/gallery/thumbnails/Nez Perce.jpg"></button>
+  <button id="SooM Lighthouse" class="clickArt"><img src="images/gallery/thumbnails/Soom Lighthouse concept.jpg"></button>
+  <button id="otterJam" class="clickArt"><img src="images/gallery/thumbnails/OtterJam poster.jpg"></button>
+  <button id="otterJamv1" class="clickArt"><img src="images/gallery/thumbnails/OtterJam poster v1.jpg"></button>
+  <button id="LifeStyrofoam" class="clickArt"><img src="images/gallery/thumbnails/life styrofoam.jpg"></button>
+  <button id="VE Peeking" class="clickArt"><img src="images/gallery/thumbnails/VE peeking.jpg"></button>
+  <button id="bag graphite" class="clickArt"><img src="images/gallery/thumbnails/bag.jpg"></button>
+  <button id="horizon from ref" class="clickArt"><img src="images/gallery/thumbnails/horizon from ref.jpg"></button>
+  <button id="cow" class="clickArt"><img src="images/gallery/thumbnails/cow.jpg"></button>
+  <button id="gramophone" class="clickArt"><img src="images/gallery/thumbnails/gramophone.jpg"></button>
+  <button id="drain" class="clickArt"><img src="images/gallery/thumbnails/drain.jpg"></button>
+  <button id="fitchers office" class="clickArt"><img src="images/gallery/thumbnails/fitchers office.jpg"></button>
+  <button id="VE Album" class="clickArt"><img src="images/gallery/thumbnails/VE album.jpg"></button>
+  <button id="collageHouse" class="clickArt"><img src="images/gallery/thumbnails/collageHouse.jpg"></button>
+  <button id="collageUnique" class="clickArt"><img src="images/gallery/thumbnails/collageUnique.jpg"></button>
+  <button id="collageWalk" class="clickArt"><img src="images/gallery/thumbnails/collageWalk.jpg"></button>
+
+
+  <button id="faust for oviumn" class="clickArt"><img src="images/gallery/thumbnails/faust for oviumn.jpg" class="best"></button>
+  <button id="Faust Workdisplay" class="clickArt"><img src="images/gallery/thumbnails/Faust Workdisplay.jpg"></button>
+  <button id="faust sketch" class="clickArt"><img src="images/gallery/thumbnails/faust sketch.jpg"></button>
+
+  <button id="take aim" class="clickArt"><img src="images/gallery/thumbnails/take aim.jpg"></button>
+  <button id="take aim sketch" class="clickArt"><img src="images/gallery/thumbnails/take aim sketch.jpg"></button>
+  <button id="fitchers office" class="clickArt"><img src="images/gallery/thumbnails/fitchers office.jpg"></button>
+  <button id="Alley" class="clickArt"><img src="images/gallery/thumbnails/Alley.jpg"></button>
+  <button id="Carli" class="clickArt"><img src="images/gallery/thumbnails/Carli.jpg" class="best"></button>
+  <button id="carli process" class="clickArt"><img src="images/gallery/thumbnails/carli process.jpg"></button>
+  <!-- 2024 ^^^ -->
+
+  <button id="GH Demo Sprite Display" class="clickArt"><img src="images/gallery/thumbnails/GH Demo Sprite Display.jpg"></button>
+  <button id="soap dialog" class="clickArt"><img src="images/gallery/thumbnails/soap dialog.jpg" class="best"></button>
+  <button id="soap bg" class="clickArt"><img src="images/gallery/thumbnails/soap bg.jpg"></button>
+  <button id="soap GH" class="clickArt"><img src="images/gallery/thumbnails/soap GH.jpg"></button>
+  <button id="soap dateables" class="clickArt"><img src="images/gallery/thumbnails/soap dateables.jpg"></button>
+
+  <button id="avril alice" class="clickArt"><img src="images/gallery/thumbnails/avril alice.jpg"></button>
+  <button id="cynthia profile" class="clickArt"><img src="images/gallery/thumbnails/cynthia profile.jpg"></button>
+  <button id="cynthia spill" class="clickArt"><img src="images/gallery/thumbnails/cynthia spill.jpg"></button>
+  <button id="cynthia ref" class="clickArt"><img src="images/gallery/thumbnails/cynthia ref.jpg"></button>
+
+  <button id="VE sketch page" class="clickArt"><img src="images/gallery/thumbnails/VE sketch page.jpg"></button>
+  <button id="VE Disconnect" class="clickArt"><img src="images/gallery/thumbnails/Disconnect.jpg"></button>
+  <button id="Open Field" class="clickArt"><img src="images/gallery/thumbnails/Open Field.jpg" class="best"></button>
+  <button id="pasta dinner" class="clickArt"><img src="images/gallery/thumbnails/pasta dinner.jpg"></button>
+  <button id="pasta 50s" class="clickArt"><img src="images/gallery/thumbnails/pasta 50s.jpg"></button>
+  <button id="pasta bookmark" class="clickArt"><img src="images/gallery/thumbnails/pasta bookmark.jpg"></button>
+  <button id="lav truth" class="clickArt"><img src="images/gallery/thumbnails/lav truth.jpg"></button>
+  <button id="accompany" class="clickArt"><img src="images/gallery/thumbnails/accompany.jpg"></button>
+  <button id="BOO avril" class="clickArt"><img src="images/gallery/thumbnails/BOO.jpg"></button>
+  <button id="carli first" class="clickArt"><img src="images/gallery/thumbnails/carli first.jpg"></button>
+  <button id="Vera execution" class="clickArt"><img src="images/gallery/thumbnails/Vera execution.jpg"></button>
+  <button id="vera comic" class="clickArt"><img src="images/gallery/thumbnails/vera comic.jpg"></button>
+  <!-- <button id="vera doctor" class="clickArt"><img src="images/gallery/thumbnails/vera doctor.jpg"></button> -->
+  <button id="vera ref" class="clickArt"><img src="images/gallery/thumbnails/vera ref.jpg"></button>
+  <button id="diane and elie" class="clickArt"><img src="images/gallery/thumbnails/diane and elie.jpg"></button>
+  <button id="diane and elie flat" class="clickArt"><img src="images/gallery/thumbnails/diane an elie flat.jpg"></button>
+  <button id="tour court" class="clickArt"><img src="images/gallery/thumbnails/tour court.jpg"></button>
+  <button id="Left behind" class="clickArt"><img src="images/gallery/thumbnails/Left behind.jpg"></button>
+  <button id="silver defeat" class="clickArt"><img src="images/gallery/thumbnails/silver defeat.jpg"></button>
+  
+  <button id="Hesta Dimitri for Oviumn" class="clickArt"><img src="images/gallery/thumbnails/Hesta Dimitri for Oviumn.jpg"></button>
+  <button id="Olive" class="clickArt"><img src="images/gallery/thumbnails/Olive for geckoslicktheireyes.jpg" class="best"></button>
+  <button id="Clementine" class="clickArt"><img src="images/gallery/thumbnails/Clementine for Mosquitojuicebox.jpg"></button>
+  <button id="Jay for Sungeist" class="clickArt"><img src="images/gallery/thumbnails/Jay for Sungeist.jpg" class="best"></button>
+  <button id="Idas Armor" class="clickArt"><img src="images/gallery/thumbnails/Idas Armor.jpg"></button>
+
+  <button id="lets boogie gross" class="clickArt"><img src="images/gallery/thumbnails/lets boogie gross.jpg" class="best"></button>
+  <button id="orzyn wild magic" class="clickArt"><img src="images/gallery/thumbnails/orzyn wild magic.jpg"></button>
+  <button id="happy birthday" class="clickArt"><img src="images/gallery/thumbnails/happy birthday.jpg"></button>
+  <button id="Mori" class="clickArt"><img src="images/gallery/thumbnails/Mori.jpg" class="best"></button>
+  <button id="VE first" class="clickArt"><img src="images/gallery/thumbnails/VE first.jpg"></button>
+  <button id="Heather Silent Hill 3" class="clickArt"><img src="images/gallery/thumbnails/Heather Silent Hill 3.jpg"></button>
+  <button id="Art Room Night" class="clickArt"><img src="images/gallery/thumbnails/Art Room Night.jpg"></button>
+  <button id="Art Room Day" class="clickArt"><img src="images/gallery/thumbnails/Art Room Day.jpg" class="best"></button>
+  <button id="ormand ref" class="clickArt"><img src="images/gallery/thumbnails/ormand ref.jpg"></button>
+  <!-- <button id="VIPER" class="clickArt"><img src="images/gallery/thumbnails/VIPER Profile.jpg"></button> -->
+  <button id="diane death" class="clickArt"><img src="images/gallery/thumbnails/diane death.jpg"></button>
+  <button id="Diane Interrogation" class="clickArt"><img src="images/gallery/thumbnails/Diane Interrogation.jpg" class="best"></button>
+  <!-- 2023 ^^^ -->
+
+  <button id="Colin" class="clickArt"><img src="images/gallery/thumbnails/Colin.jpg"></button>
+  <button id="Ellie" class="clickArt"><img src="images/gallery/thumbnails/Ellie.jpg"></button>
+  <button id="bellflower cookie" class="clickArt"><img src="images/gallery/thumbnails/bellflower cookie.jpg"></button>
+  <button id="Z library" class="clickArt"><img src="images/gallery/thumbnails/Z library.jpg" class="best"></button>
+  <button id="inside the sound chas" class="clickArt"><img src="images/gallery/thumbnails/inside the sound chas.jpg"></button>
+  <button id="zara ref" class="clickArt"><img src="images/gallery/thumbnails/zara ref.jpg"></button>
+  <button id="winter ref" class="clickArt"><img src="images/gallery/thumbnails/winter ref.jpg"></button>
+
+  <button id="Pink for spiral" class="clickArt"><img src="images/gallery/thumbnails/Pink for spiral.jpg" class="best"></button>
+  <button id="YAAI for sudza" class="clickArt"><img src="images/gallery/thumbnails/YAAI for sudza.jpg"></button>
+  <button id="Milk for Pickle" class="clickArt"><img src="images/gallery/thumbnails/Milk for Pickle.jpg"></button>
+  <button id="Aspen for Cinnamxn" class="clickArt"><img src="images/gallery/thumbnails/Aspen for Cinnamxn.jpg"></button>
+  <button id="Hibiscus for RemyTheLiar" class="clickArt"><img src="images/gallery/thumbnails/Hibiscus for RemyTheLiar.jpg"></button>
+  <button id="Idalia for flowey" class="clickArt"><img src="images/gallery/thumbnails/Idalia for flowey_7389.jpg" class="best"></button>
+
+  <button id="Sprigatto Love" class="clickArt"><img src="images/gallery/thumbnails/Sprigatto Love.jpg"></button>
+  <button id="Lace ref" class="clickArt"><img src="images/gallery/thumbnails/Lace ref.jpg"></button>
+  <button id="Idas Veri" class="clickArt"><img src="images/gallery/thumbnails/Idas Veri.jpg" class="best"></button>
+  <button id="AileeBright" class="clickArt"><img src="images/gallery/thumbnails/AileeBright.jpg"></button>
+  <button id="emote pack2" class="clickArt"><img src="images/gallery/thumbnails/emote pack2.jpg"></button>
+  <!-- 2022 ^^^ -->
+
+  <!-- <button id="silverTorii" class="clickArt"><img src="images/gallery/thumbnails/vera mspaint.jpg"></button> -->
+  <button id="Blaire" class="clickArt"><img src="images/gallery/thumbnails/Blaire.jpg"></button>
+  <button id="mdl outfits" class="clickArt"><img src="images/gallery/thumbnails/mdl outfits.jpg"></button>
+  <button id="Lace Sketch Comp" class="clickArt"><img src="images/gallery/thumbnails/Lace Sketch Comp.jpg"></button>
+  <button id="mdl steampunk" class="clickArt"><img src="images/gallery/thumbnails/mdl steampunk.jpg"></button>
+  <button id="mdl main" class="clickArt"><img src="images/gallery/thumbnails/mdl main.jpg"></button>
+  <button id="MDL Sketch Comp" class="clickArt"><img src="images/gallery/thumbnails/MDL Sketch Comp.jpg"></button>
+  <button id="big bad" class="clickArt"><img src="images/gallery/thumbnails/bgi_bad.jpg"></button>
+  <button id="idolcard" class="clickArt"><img src="images/gallery/thumbnails/idolcard.jpg"></button>
+  <button id="idol flat" class="clickArt"><img src="images/gallery/thumbnails/idol flat.jpg"></button>
+  <!-- <button id="UR Melody Card" class="clickArt"><img src="images/gallery/thumbnails/Ur Melody Card.jpg"></button> -->
+  <!-- 2021 ^^^ -->
+
+  <button id="Izumi Enoki for OranNotOren" class="clickArt"><img src="images/gallery/thumbnails/Izumi Enoki for OranNotOren.jpg"></button>
+  
+
+  <button id="journey3" class="clickArt"><img src="images/gallery/thumbnails/journey3.jpg"></button>
+  <button id="Avril ref" class="clickArt"><img src="images/gallery/thumbnails/Avril ref.jpg"></button>
+  <button id="mdl Fukkireta" class="clickArt"><img src="images/gallery/thumbnails/mdl Fukkireta.jpg"></button>
+  <button id="aboutPanels" class="clickArt"><img src="images/gallery/thumbnails/aboutPanels.jpg"></button>
+  <button id="emotes old" class="clickArt"><img src="images/gallery/thumbnails/emotes old.jpg"></button>
+  <!-- 2020^^^ -->
+  <button id="Sasha ref" class="clickArt"><img src="images/gallery/thumbnails/Sasha ref.jpg"></button>
+  <button id="sahsa chill" class="clickArt"><img src="images/gallery/thumbnails/sasha chill.jpg"></button>
+
+
+</section>
+</section>
+
+
+<section class="clear"></section>
+<footer>
+    <p>Copyright &#169 Zionna Brown 2025</p>
+</footer>
+
+</body>
+</html>

@@ -610,19 +610,22 @@ a h1
     .linkSpace
     {
         clear:both;
-        padding-bottom:220px;
+        height: 130px;
+        width: 100%;
+        padding-top:44px;
     }
 
-    .links article
+    .links
     {
         background-color: #4C9893;
-        padding: 20px;
+        padding-left: 20px;
+        padding-bottom: 20px;
         width:400px;
         margin-left:auto;
         margin-right:auto;
-        clear:both;
+
         border-radius: 15px;
-        margin-bottom:200px;
+        margin-bottom:250px;
     }
 
     .links a
@@ -640,11 +643,10 @@ a h1
 
     .links p 
     {
-        width: 200px;
+        width: fit-content;
         margin-left:auto;
         margin-right:auto;
         display:block;
-        clear:both;
         text-align:center;
     }
 
@@ -739,6 +741,7 @@ and (max-width:800px)
     {
         margin-left: 2%;
         margin-right: 0%;
+        margin-bottom: 10px;
     }
 
     /*===========================/[ index page ]\==========================*/
@@ -927,24 +930,28 @@ and (max-width:800px)
     /**/
     /**/
     /**/
+
     .links
     {
-        margin-top:100px;
+        margin-top:150px;
         background-color: #4C9893;
-        padding: 20px;
-        width:100%;
-        margin-left:auto;
-        margin-right:auto;
+        padding:0 0 0 0;
+        padding-top: 20px;
+        padding-bottom: 20px;
+
+        width:50%;
+
+        margin-left:0%;
+        margin-right:0%;
+        margin-bottom:200px;
     }
 
-    .links article
-    {
-        width: 100%;
-    }
 
-    .links article p
+    .links p
     {
-        width: 90%;
+        width: 94%;
+        margin-left:3%;
+        margin-right:0%;
     }
 
     /*===========================/[ projects page ]\==========================*/
@@ -1054,6 +1061,18 @@ and (max-width:800px)
         margin-bottom: 2%;
         margin-left:2%;
         margin-right:2%
+    }
+
+    .links
+    {
+        width: 100%;
+    }
+
+    .linkSpace
+    {
+        height: 0px;
+        padding: none;
+        margin: none;
     }
 
 }

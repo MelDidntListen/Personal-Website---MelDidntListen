@@ -27,7 +27,7 @@ nav a
 
 .navParticular
 {
-    margin-right: 15px!important;
+    margin-right: 15px;
 }
 
 header
@@ -235,9 +235,14 @@ a h1
     font-weight: bold;
     font-size: xx-large;
     margin-top:40px;
-    margin-bottom:-10px;
+    margin-bottom:-5px;
     margin-left:0;
     text-align: left;
+}
+
+.leftH1
+{
+    float:left;
 }
 
 
@@ -701,7 +706,7 @@ and (max-width:800px)
         margin-right: auto;
         margin-top:10px;
         text-align: center;
-        background-color: pink;
+        padding-right: 20px;
     }
 
     .navParticular a

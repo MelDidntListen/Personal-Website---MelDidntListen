@@ -834,40 +834,89 @@ and (max-width:800px)
         padding-right: 50px;
         font-size: 30px;
     }
-    
+
     .aboutMe
     {
        width: 100%;
     }
 
-    .aboutMe p
-    {
-        font-family: Arial, Helvetica, sans-serif;
-    }
+        .profile
+        {
+            float:none;
+            background-color: #297A75;
+            text-align: center;
+            padding: 1%;
+            border-radius: 30px;
+            width:30%;
+            margin-bottom: 1%;
+        }
 
-    .headshot
-    {
-        width: 88%;
-    }
+        .profile a
+        {
+            width: 20px;
+            height: 20px;
+            object-fit: cover;
+            float:left;
+        }
+
+        .headshot
+        {
+            width: 88%;
+            margin-top:5%;
+        }
+
+        .nameLabel
+        {
+            float:left;
+            background-color: pink;
+        }
+
+        .socials
+        {
+            width: 200px;
+            margin-top:6%;
+            background-color: green;
+        }
+
+        .socials img
+        {
+            width:20px;
+            height:20px;
+        }
+
+        .blurb
+        {
+            float:right;
+            background-color: #4C9893;
+            border-bottom-right-radius: 30px;
+            border-top-right-radius: 30px;
+            padding:2%;
+            width:64%;
+            height: 340px;
+        }
+
+        .blurb p
+        {
+            font-family: Arial, Helvetica, sans-serif;
+            padding: 2%;
+            margin-bottom:6%
+        }
+
+        .blurb h3
+        {
+            padding-left:2%;
+            margin-top:1%;
+            margin-bottom:-1%
+        }
+
+        .blurb a
+        {
+            margin-right:0%;
+        }
     
-    .socials
-    {
-      width: 200px;
-      margin-top:6%;
-    }
-    
-    .socials img
-    {
-        width:20px;
-        height:20px;
-    }
-    
-    .blurb
-    {
-        width:64%;
-        height: 340px;
-    }
-    
+
+
+    /* wavyrn ==========================================================================*/
     .wavyrn
     {
         margin-top: 4%;

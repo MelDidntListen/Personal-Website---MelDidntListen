@@ -9,13 +9,13 @@ html
 
 nav
 {
-    padding: 10px !important;
+    padding: 10px;
     background-color: #9D8BC5;
-    width: 100% !important;
+    width: 100%;
     float:right;
     margin-top: 0% !important;
     position: fixed !important;
-    margin-left:-1%!important;
+    margin-left:-1%;
     height:40px !important;
     z-index: 990 !important;
 }
@@ -27,7 +27,7 @@ nav a
 
 .navParticular
 {
-    margin-right: 15px!important;
+    margin-right: 15px;
 }
 
 header
@@ -144,6 +144,7 @@ br
   margin: 10px 0;
   line-height:22px;
   content: " ";
+  width:100%
 }
 
 
@@ -234,9 +235,14 @@ a h1
     font-weight: bold;
     font-size: xx-large;
     margin-top:40px;
-    margin-bottom:-10px;
+    margin-bottom:-5px;
     margin-left:0;
     text-align: left;
+}
+
+.leftH1
+{
+    float:left;
 }
 
 
@@ -610,19 +616,22 @@ a h1
     .linkSpace
     {
         clear:both;
-        padding-bottom:220px;
+        height: 130px;
+        width: 100%;
+        padding-top:44px;
     }
 
-    .links article
+    .links
     {
         background-color: #4C9893;
-        padding: 20px;
+        padding-left: 20px;
+        padding-bottom: 20px;
         width:400px;
         margin-left:auto;
         margin-right:auto;
-        clear:both;
+
         border-radius: 15px;
-        margin-bottom:200px;
+        margin-bottom:250px;
     }
 
     .links a
@@ -640,11 +649,10 @@ a h1
 
     .links p 
     {
-        width: 200px;
+        width: fit-content;
         margin-left:auto;
         margin-right:auto;
         display:block;
-        clear:both;
         text-align:center;
     }
 
@@ -675,8 +683,16 @@ a h1
 @media screen 
 and (max-width:800px)
 {
+
+    body
+    {
+        overflow-x: hidden;
+    }
+
     nav
     {
+        padding-top: 10px;
+        padding-left: 10px;
         width: 100%;
         height:30px;
     }
@@ -684,11 +700,13 @@ and (max-width:800px)
     .navParticular
     {
         display: block;
-        width:265px;
+        width:277px;
+        height: 20px;
         margin-left: auto;
         margin-right: auto;
         margin-top:10px;
-
+        text-align: center;
+        padding-right: 20px;
     }
 
     .navParticular a
@@ -724,9 +742,10 @@ and (max-width:800px)
         margin-right: 3%;
     }
     
+
     hr
     {
-        width: 94%;
+        width: 100%;
     }
 
     button
@@ -739,6 +758,7 @@ and (max-width:800px)
     {
         margin-left: 2%;
         margin-right: 0%;
+        margin-bottom: 10px;
     }
 
     /*===========================/[ index page ]\==========================*/
@@ -814,40 +834,89 @@ and (max-width:800px)
         padding-right: 50px;
         font-size: 30px;
     }
-    
+
     .aboutMe
     {
        width: 100%;
     }
 
-    .aboutMe p
-    {
-        font-family: Arial, Helvetica, sans-serif;
-    }
+        .profile
+        {
+            float:none;
+            background-color: #297A75;
+            text-align: center;
+            padding: 1%;
+            border-radius: 30px;
+            width:30%;
+            margin-bottom: 1%;
+        }
 
-    .headshot
-    {
-        width: 88%;
-    }
+        .profile a
+        {
+            width: 20px;
+            height: 20px;
+            object-fit: cover;
+            float:left;
+        }
+
+        .headshot
+        {
+            width: 88%;
+            margin-top:5%;
+        }
+
+        .nameLabel
+        {
+            float:left;
+            background-color: pink;
+        }
+
+        .socials
+        {
+            width: 200px;
+            margin-top:6%;
+            background-color: green;
+        }
+
+        .socials img
+        {
+            width:20px;
+            height:20px;
+        }
+
+        .blurb
+        {
+            float:right;
+            background-color: #4C9893;
+            border-bottom-right-radius: 30px;
+            border-top-right-radius: 30px;
+            padding:2%;
+            width:64%;
+            height: 340px;
+        }
+
+        .blurb p
+        {
+            font-family: Arial, Helvetica, sans-serif;
+            padding: 2%;
+            margin-bottom:6%
+        }
+
+        .blurb h3
+        {
+            padding-left:2%;
+            margin-top:1%;
+            margin-bottom:-1%
+        }
+
+        .blurb a
+        {
+            margin-right:0%;
+        }
     
-    .socials
-    {
-      width: 200px;
-      margin-top:6%;
-    }
-    
-    .socials img
-    {
-        width:20px;
-        height:20px;
-    }
-    
-    .blurb
-    {
-        width:64%;
-        height: 340px;
-    }
-    
+
+
+    /* wavyrn ==========================================================================*/
     .wavyrn
     {
         margin-top: 4%;
@@ -927,24 +996,28 @@ and (max-width:800px)
     /**/
     /**/
     /**/
+
     .links
     {
-        margin-top:100px;
+        margin-top:150px;
         background-color: #4C9893;
-        padding: 20px;
-        width:100%;
-        margin-left:auto;
-        margin-right:auto;
+        padding:0 0 0 0;
+        padding-top: 20px;
+        padding-bottom: 20px;
+
+        width:50%;
+
+        margin-left:0%;
+        margin-right:0%;
+        margin-bottom:200px;
     }
 
-    .links article
-    {
-        width: 100%;
-    }
 
-    .links article p
+    .links p
     {
-        width: 90%;
+        width: 94%;
+        margin-left:3%;
+        margin-right:0%;
     }
 
     /*===========================/[ projects page ]\==========================*/
@@ -1054,6 +1127,18 @@ and (max-width:800px)
         margin-bottom: 2%;
         margin-left:2%;
         margin-right:2%
+    }
+
+    .links
+    {
+        width: 100%;
+    }
+
+    .linkSpace
+    {
+        height: 0px;
+        padding: none;
+        margin: none;
     }
 
 }

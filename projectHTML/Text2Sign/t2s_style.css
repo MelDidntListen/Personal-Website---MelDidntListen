@@ -17,7 +17,7 @@ h1
     font-style: normal;
     color: #46A4C4;
     line-height: normal;
-    font-size:100px;
+    font-size:40px;
 }
 
 h1 em
@@ -56,15 +56,27 @@ h3
     font-style: normal;
     color: #46A4C4;
     line-height: normal;
+    font-size: 26px;
 }
 
 p
+{
+    font-family: "ADLaM Display", serif, Arial, Helvetica, sans-serif;
+    font-weight: 40;
+    font-style: normal;
+    color: #46A4C4;
+    line-height: normal;
+    font-size: 18px;
+}
+
+.typingArea
 {
     font-family: "ADLaM Display", serif, Arial, Helvetica, sans-serif;
     font-weight: 400;
     font-style: normal;
     color: #46A4C4;
     line-height: normal;
+    font-size: 90px;
 }
 
 .banner img
@@ -108,54 +120,104 @@ header
     margin-right:auto;
     width:40%;
 }
-
-.learnMore
+.row0
+{
+    /*new header image*/
+    img{
+        margin-top: 70px;
+        display:block;
+         width: 100%;
+         clear: both;
+    }
+}
+.row3
 {
     margin-top:40px;
     display:block;
     margin-left:auto;
     margin-right:auto;
-    width:50%;
+    width:fit-content;
+    clear: both;
+    
 }
 
-.learnMore h3
+.row3 h3
 {
-    margin-left:10%;
+    margin-bottom: 30px;
+    width:fit-content;
 }
-
-.storyboard
-{
+.row5{
+    margin-left:8.5%;
+}
+.row5 h1{
+    margin-bottom: 10px;
+    width:75%;
+    clear:both;
     margin-top:40px;
-    width:70%;
-    display:block;
-    margin-left:auto;
-    margin-right:auto;
-    margin-bottom: 40px;
+    
 }
 
-.storyboard img
-{
-    width: 100%;
+.row5 h3{
+    font-size: 40px;
 }
+
+.row5 img{
+    width:100px;
+    height:100px;
+    margin-bottom: 20px;
+}
+
+hr{
+    background-color:#FABF52;
+    height: 5px;
+    border:none;
+    width: 89%;
+    margin-left:0%;
+    margin-bottom: 30px;
+}
+
+.yellowHR
+{
+    background-color: #FAEA4B;
+    margin-bottom: -8px;
+}
+
+
 
 /*------- GAME!!!!!! --------*/
 
-.example img
+/* .example img
 {
-    margin:10px;
+    /* margin:10px;
     width: 100%;
-    margin-left:8%;
-}
+    margin-left:8%; 
+} */
 
-.example
+.center
 {
     display:block;
-    width:700px;
-    margin-left:auto;
-    margin-right: auto;
-    margin-top: -200px;
+    width: 84%;
+    margin-left: 8%;
+    margin-right: 8%;
 }
-
+.game{
+    width: 100%;
+    clear:both;
+}
+.insertTextField{
+    background-color: #ffffff;
+    height: 130px; 
+    width: 74%;
+    margin-top: 12px;
+    margin-left: 2%;
+    font-family: Arial, Helvetica, sans-serif;
+    float: left;
+    border-radius: 8px;
+    border: thick solid #ffffff;
+}
+.typingArea{
+    width: 50%;
+}
 button
 {
     border:none;
@@ -164,6 +226,7 @@ button
     padding-left: 20px;
     padding-right: 20px;
     font-size:30px;
+    width: 116px;
     font-family: "ADLaM Display", serif, Arial, Helvetica, sans-serif;
     margin: 10px;
     border-radius: 14px;
@@ -173,8 +236,10 @@ button
 
 .LRTriggerButtons
 {
-    width: 50px;
-    margin-left:70px;
+    width: 10%;
+    margin-left:0%;
+    margin-right: 0%;
+    float: left; 
 }
 
 .LRTriggerButtons button:hover
@@ -186,24 +251,46 @@ button
     margin-right: 11px;
 }
 
-.buttonL
-{
+.buttonL{
     background-color: #8ADB6B;
 }
-
-.buttonR
-{
+.buttonL button:hover{
+    background-color: #8ADB6B;
+}
+.buttonR{
     background-color: #74C1DC;
 }
 
-.buttonR button:hover
-{
+.buttonR button:hover{
     background-color: #6fb3cc;
 }
-
-
-
-/*----------ABOUT !!!JH!!JEOWFJOEIDFJLK ABOUT! ABOUT! ----------*/
+.enterAndClear{
+    margin-top: 0px;
+    margin-left: 1%;
+    width: 10%;
+    float: left;
+}
+.enterAndClear button:hover{
+    background-color: #85d067;
+    filter: drop-shadow(0px 0px 0px #075313);
+    margin-left: 9px;
+    margin-top: 10px;
+    margin-right: 11px;
+} 
+.imagez{
+    width: 100%;
+    height: 200px;
+    height: fit-content;
+    background-color: #ffffff;
+    border-radius: 20px;
+}
+.imagez img{
+    width: 7%;
+    size-adjust: 10%;
+    aspect-ratio: 1 / 1; 
+    height: auto;
+}
+/*----------ABOUT! ------------------------------------------------------------*/
 
 .aboutHead
 {

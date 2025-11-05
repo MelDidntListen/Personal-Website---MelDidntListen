@@ -36,17 +36,17 @@ let pieces =
         date:'4-12-2024'
     },
 
-    {
-        name: "The Taste of Cockroach (Maretu) Storyboard",
-        id: 'tasteOf',
-        image:"images/gallery/toc storyboard.jpeg",
-        content:[],
-        medium:[],
-        program:[],
-        genre:[],
-        project:[],
-        date:'7-12-2024'
-    },
+    // {
+    //     name: "The Taste of Cockroach (Maretu) Storyboard",
+    //     id: 'tasteOf',
+    //     image:"images/gallery/toc storyboard.jpeg",
+    //     content:[],
+    //     medium:[],
+    //     program:[],
+    //     genre:[],
+    //     project:[],
+    //     date:'7-12-2024'
+    // },
 
     {
         name: "Silver - Paint from Reference Practice",
@@ -101,17 +101,17 @@ let pieces =
         //day - month - year
     },
 
-    {
-        name: "Nez Perce Salmon Ceremony",
-        id: 'Nez Perce',
-        image:"images/gallery/Nez Perce.png",
-        content:[],
-        medium:[],
-        program:[],
-        genre:[],
-        project:[],
-        date:'2-12-2024'
-    },
+    // {
+    //     name: "Nez Perce Salmon Ceremony",
+    //     id: 'Nez Perce',
+    //     image:"images/gallery/Nez Perce.png",
+    //     content:[],
+    //     medium:[],
+    //     program:[],
+    //     genre:[],
+    //     project:[],
+    //     date:'2-12-2024'
+    // },
 
 //     "SooM Lighthouse" class="clickArt"><img src="images/gallery/thumbnails/Soom Lighthouse concept.jpg"></button>
 //   <button id="otterJam" class="clickArt"><img src="images/gallery/thumbnails/OtterJam poster.jpg"></button>
@@ -153,6 +153,18 @@ let pieces =
     },
 
     {
+        name: "Styrofoam Life Drawing",
+        id: 'LifeStyrofoam',
+        image:"images/gallery/life styrofoam.png",
+        content:[],
+        medium:[],
+        program:[],
+        genre:[],
+        project:[],
+        date:'19-09-2024'
+    },
+
+    {
         name: "VE Peeking",
         id: 'VE Peeking',
         image:"images/gallery/VE peeking.png",
@@ -162,18 +174,6 @@ let pieces =
         genre:[],
         project:[],
         date:'2-12-2024'
-    },
-
-    {
-        name: "Horizon practice from Reference",
-        id: 'horizon from ref',
-        image:"images/gallery/horizon from ref.png",
-        content:[],
-        medium:[],
-        program:[],
-        genre:[],
-        project:[],
-        date:'10-10-2024'
     },
 
     {
@@ -189,52 +189,54 @@ let pieces =
     },
 
     {
-        name: "Styrofoam Life Drawing",
-        id: 'LifeStyrofoam',
-        image:"images/gallery/life styrofoam.png",
+        name: "Horizon practice from Reference",
+        id: 'horizon from ref',
+        image:"images/gallery/horizon from ref.png",
         content:[],
         medium:[],
         program:[],
         genre:[],
         project:[],
-        date:'19-09-2024'
+        date:'10-10-2024'
     },
 
-    {
-        name: "House - Collage",
-        id: 'collageHouse',
-        image:"images/gallery/collageHouse.jpg",
-        content:[],
-        medium:[],
-        program:[],
-        genre:[],
-        project:[],
-        date:'01-09-2024'
-    },
 
-    {
-        name: "Are you unique? - Collage",
-        id: 'collageUnique',
-        image:"images/gallery/collageUnique.jpg",
-        content:[],
-        medium:[],
-        program:[],
-        genre:[],
-        project:[],
-        date:'01-09-2024'
-    },
 
-    {
-        name: "A walk into time restricted - Collage",
-        id: 'collageWalk',
-        image:"images/gallery/collageWalk.jpg",
-        content:[],
-        medium:[],
-        program:[],
-        genre:[],
-        project:[],
-        date:'01-09-2024'
-    },
+    // {
+    //     name: "House - Collage",
+    //     id: 'collageHouse',
+    //     image:"images/gallery/collageHouse.jpg",
+    //     content:[],
+    //     medium:[],
+    //     program:[],
+    //     genre:[],
+    //     project:[],
+    //     date:'01-09-2024'
+    // },
+
+    // {
+    //     name: "Are you unique? - Collage",
+    //     id: 'collageUnique',
+    //     image:"images/gallery/collageUnique.jpg",
+    //     content:[],
+    //     medium:[],
+    //     program:[],
+    //     genre:[],
+    //     project:[],
+    //     date:'01-09-2024'
+    // },
+
+    // {
+    //     name: "A walk into time restricted - Collage",
+    //     id: 'collageWalk',
+    //     image:"images/gallery/collageWalk.jpg",
+    //     content:[],
+    //     medium:[],
+    //     program:[],
+    //     genre:[],
+    //     project:[],
+    //     date:'01-09-2024'
+    // },
 
     {
         name: "The Storm Drain | Drawing from dreams",
@@ -314,31 +316,31 @@ let pieces =
         //day - month - year
     },
 
-    {
-        name: "Fitcher's Detective Office",
-        id: 'fitchers office',
-        image:"images/gallery/fitchers office.png",
-        content:[],
-        medium:[],
-        program:[],
-        genre:[],
-        project:[],
-        date:'2-12-2024'
-        //day - month - year
-    },
+    // {
+    //     name: "Fitcher's Detective Office",
+    //     id: 'fitchers office',
+    //     image:"images/gallery/fitchers office.png",
+    //     content:[],
+    //     medium:[],
+    //     program:[],
+    //     genre:[],
+    //     project:[],
+    //     date:'2-12-2024'
+    //     //day - month - year
+    // },
 
-    {
-        name: "Alley - Practice from reference",
-        id: 'Alley',
-        image:"images/gallery/Alley.png",
-        content:[],
-        medium:[],
-        program:[],
-        genre:[],
-        project:[],
-        date:'2-12-2024'
-        //day - month - year
-    },
+    // {
+    //     name: "Alley - Practice from reference",
+    //     id: 'Alley',
+    //     image:"images/gallery/Alley.png",
+    //     content:[],
+    //     medium:[],
+    //     program:[],
+    //     genre:[],
+    //     project:[],
+    //     date:'2-12-2024'
+    //     //day - month - year
+    // },
 
     {
         name: "Carli - Character art",
@@ -535,18 +537,18 @@ let pieces =
         //day - month - year
     },
 
-    {
-        name: "Pasta | 50s concept sketches",
-        id: 'pasta 50s',
-        image:"images/gallery/pasta 50s.png",
-        content:[],
-        medium:[],
-        program:[],
-        genre:[],
-        project:[],
-        date:'2-12-2024'
-        //day - month - year
-    },
+    // {
+    //     name: "Pasta | 50s concept sketches",
+    //     id: 'pasta 50s',
+    //     image:"images/gallery/pasta 50s.png",
+    //     content:[],
+    //     medium:[],
+    //     program:[],
+    //     genre:[],
+    //     project:[],
+    //     date:'2-12-2024'
+    //     //day - month - year
+    // },
 
     {
         name: "Pasta",
@@ -600,31 +602,31 @@ let pieces =
         //day - month - year
     },
 
-    {
-        name: "Carli | Primary concept",
-        id: 'carli first',
-        image:"images/gallery/carli first.png",
-        content:[],
-        medium:[],
-        program:[],
-        genre:[],
-        project:[],
-        date:'2-12-2024'
-        //day - month - year
-    },
+    // {
+    //     name: "Carli | Primary concept",
+    //     id: 'carli first',
+    //     image:"images/gallery/carli first.png",
+    //     content:[],
+    //     medium:[],
+    //     program:[],
+    //     genre:[],
+    //     project:[],
+    //     date:'2-12-2024'
+    //     //day - month - year
+    // },
 
-    {
-        name: "Vera | Elevator Concept",
-        id: '',
-        image:"images/gallery/Vera execution.png",
-        content:[],
-        medium:[],
-        program:[],
-        genre:[],
-        project:[],
-        date:'2-12-2024'
-        //day - month - year
-    },
+    // {
+    //     name: "Vera | Elevator Concept",
+    //     id: '',
+    //     image:"images/gallery/Vera execution.png",
+    //     content:[],
+    //     medium:[],
+    //     program:[],
+    //     genre:[],
+    //     project:[],
+    //     date:'2-12-2024'
+    //     //day - month - year
+    // },
 
     {
         name: "Vera | Comic slice",
@@ -717,18 +719,18 @@ let pieces =
         //day - month - year
     },
 
-    {
-        name: "Hesta Dimitri | For Oviumn",
-        id: 'Hesta Dimitri For Oviumn',
-        image:"images/gallery/Hesta Dimitri for Oviumn.png",
-        content:[],
-        medium:[],
-        program:[],
-        genre:[],
-        project:[],
-        date:'2-12-2024'
-        //day - month - year
-    },
+    // {
+    //     name: "Hesta Dimitri | For Oviumn",
+    //     id: 'Hesta Dimitri For Oviumn',
+    //     image:"images/gallery/Hesta Dimitri for Oviumn.png",
+    //     content:[],
+    //     medium:[],
+    //     program:[],
+    //     genre:[],
+    //     project:[],
+    //     date:'2-12-2024'
+    //     //day - month - year
+    // },
 
     {
         name: "Olive | For geckosliktheireyes.png",
@@ -743,18 +745,18 @@ let pieces =
         //day - month - year
     },
 
-    {
-        name: "Clementine | For Mosquitojuicebox",
-        id: 'Clementine',
-        image:"images/gallery/Clementine for Mosquitojuicebox .png",
-        content:[],
-        medium:[],
-        program:[],
-        genre:[],
-        project:[],
-        date:'2-12-2024'
-        //day - month - year
-    },
+    // {
+    //     name: "Clementine | For Mosquitojuicebox",
+    //     id: 'Clementine',
+    //     image:"images/gallery/Clementine for Mosquitojuicebox .png",
+    //     content:[],
+    //     medium:[],
+    //     program:[],
+    //     genre:[],
+    //     project:[],
+    //     date:'2-12-2024'
+    //     //day - month - year
+    // },
 
     {
         name: "Jay | For Sungeist",
@@ -847,18 +849,18 @@ let pieces =
         //day - month - year
     },
 
-    {
-        name: "Heather | Silent Hill 3 Fanart",
-        id: 'Heather Silent Hill 3',
-        image:"images/gallery/Heather Silent Hill 3.png",
-        content:[],
-        medium:[],
-        program:[],
-        genre:[],
-        project:[],
-        date:'2-12-2024'
-        //day - month - year
-    },
+    // {
+    //     name: "Heather | Silent Hill 3 Fanart",
+    //     id: 'Heather Silent Hill 3',
+    //     image:"images/gallery/Heather Silent Hill 3.png",
+    //     content:[],
+    //     medium:[],
+    //     program:[],
+    //     genre:[],
+    //     project:[],
+    //     date:'2-12-2024'
+    //     //day - month - year
+    // },
 
     {
         name: "MDL | Art Room - Night",
@@ -886,18 +888,18 @@ let pieces =
         //day - month - year
     },
 
-    {
-        name: "Ormand | Character refence",
-        id: 'ormand ref',
-        image:"images/gallery/ormand ref.png",
-        content:[],
-        medium:[],
-        program:[],
-        genre:[],
-        project:[],
-        date:'2-12-2024'
-        //day - month - year
-    },
+    // {
+    //     name: "Ormand | Character refence",
+    //     id: 'ormand ref',
+    //     image:"images/gallery/ormand ref.png",
+    //     content:[],
+    //     medium:[],
+    //     program:[],
+    //     genre:[],
+    //     project:[],
+    //     date:'2-12-2024'
+    //     //day - month - year
+    // },
 
     {
         name: "Pasta | Diane scene concept",
@@ -990,31 +992,31 @@ let pieces =
         //day - month - year
     },
 
-    {
-        name: "Zara Rochette | Character Reference",
-        id: 'zara ref',
-        image:"images/gallery/zara ref.png",
-        content:[],
-        medium:[],
-        program:[],
-        genre:[],
-        project:[],
-        date:'2-12-2024'
-        //day - month - year
-    },
+    // {
+    //     name: "Zara Rochette | Character Reference",
+    //     id: 'zara ref',
+    //     image:"images/gallery/zara ref.png",
+    //     content:[],
+    //     medium:[],
+    //     program:[],
+    //     genre:[],
+    //     project:[],
+    //     date:'2-12-2024'
+    //     //day - month - year
+    // },
 
-    {
-        name: "Winter Evergarden | Character Reference",
-        id: 'winter ref',
-        image:"images/gallery/winter ref.png",
-        content:[],
-        medium:[],
-        program:[],
-        genre:[],
-        project:[],
-        date:'2-12-2024'
-        //day - month - year
-    },
+    // {
+    //     name: "Winter Evergarden | Character Reference",
+    //     id: 'winter ref',
+    //     image:"images/gallery/winter ref.png",
+    //     content:[],
+    //     medium:[],
+    //     program:[],
+    //     genre:[],
+    //     project:[],
+    //     date:'2-12-2024'
+    //     //day - month - year
+    // },
 
     {
         name: "Pink | For Spiral",
@@ -1055,18 +1057,18 @@ let pieces =
         //day - month - year
     },
 
-    {
-        name: "Aspen | For Cinnamxn",
-        id: 'Aspen for Cinnamxn',
-        image:"images/gallery/Aspen for Cinnamxn.png",
-        content:[],
-        medium:[],
-        program:[],
-        genre:[],
-        project:[],
-        date:'2-12-2024'
-        //day - month - year
-    },
+    // {
+    //     name: "Aspen | For Cinnamxn",
+    //     id: 'Aspen for Cinnamxn',
+    //     image:"images/gallery/Aspen for Cinnamxn.png",
+    //     content:[],
+    //     medium:[],
+    //     program:[],
+    //     genre:[],
+    //     project:[],
+    //     date:'2-12-2024'
+    //     //day - month - year
+    // },
 
     {
         name: "Hibiscus | For RemyTheLiar",
@@ -1172,18 +1174,18 @@ let pieces =
         //day - month - year
     },
 
-    {
-        name: "MDL | Outfit Concepts",
-        id: 'mdle outfits',
-        image:"images/gallery/mdl outfits.png",
-        content:[],
-        medium:[],
-        program:[],
-        genre:[],
-        project:[],
-        date:'2-12-2024'
-        //day - month - year
-    },
+    // {
+    //     name: "MDL | Outfit Concepts",
+    //     id: 'mdle outfits',
+    //     image:"images/gallery/mdl outfits.png",
+    //     content:[],
+    //     medium:[],
+    //     program:[],
+    //     genre:[],
+    //     project:[],
+    //     date:'2-12-2024'
+    //     //day - month - year
+    // },
 
     {
         name: "Lace | Sketch Compilation",
@@ -1315,18 +1317,18 @@ let pieces =
         //day - month - year
     },   
 
-    {
-        name: "MDL | Fukkireta Fan Reanimate",
-        id: '',
-        image:"images/gallery/MDL Fukkireta.gif",
-        content:[],
-        medium:[],
-        program:[],
-        genre:[],
-        project:[],
-        date:'2-12-2024'
-        //day - month - year
-    },   
+    // {
+    //     name: "MDL | Fukkireta Fan Reanimate",
+    //     id: '',
+    //     image:"images/gallery/MDL Fukkireta.gif",
+    //     content:[],
+    //     medium:[],
+    //     program:[],
+    //     genre:[],
+    //     project:[],
+    //     date:'2-12-2024'
+    //     //day - month - year
+    // },   
 
     {
         name: "Twitch Page | About Panels",

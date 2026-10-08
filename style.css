@@ -23,11 +23,19 @@ nav
 nav a
 {
     margin-right:15px !important;
+    margin-top:-18px;
 }
 
-.navParticular
+.navLinks
 {
+    margin-top:-6px;
     margin-right: 15px;
+}
+
+.pageTitle p
+{
+    margin-left:30px;
+    font-size: xx-large;
 }
 
 header
@@ -99,6 +107,43 @@ button
 button:hover
 {
     background-color: #6b2946;
+}
+
+.workClassItem
+{
+    background-color: white;
+    float:left;
+    width:100%;
+    margin-bottom:40px;
+}
+
+.workClassItemText
+{
+    float:left;
+    margin-left:10px;
+    margin-top:10px;
+    width: 440px;
+}
+.workClassItem h3
+{
+    color:#33313E;
+    font-size: xx-large;
+    margin-bottom:10px;
+}
+
+.workClassItem p
+{
+    color:#33313E;
+    margin-left: 10px;
+}
+
+.diagonalImage
+{
+    clip-path: polygon(0 0, 100% 0%, 100% 100%, 52% 100%);
+    height:260px;
+    margin-top:-1px;
+    margin-right:-1px;
+    margin-bottom:-5px;
 }
 
 .moreProjects
@@ -340,13 +385,23 @@ a h1
 .socials
 {
   width: 200px;
-  margin-top:6%;
+  margin-top:15px;
 }
 
 .socials img
 {
     width:20px;
     height:20px;
+}
+
+.socials a
+{
+    margin-right:15px;
+}
+
+.nameLabel h3
+{
+    margin-bottom: 10px;
 }
 
 .blurb
@@ -868,9 +923,12 @@ and (max-width:800px)
         .nameLabel
         {
             float:left;
-            background-color: pink;
         }
 
+        .nameLabel h3
+        {
+            /* TODO */
+        }
         .socials
         {
             width: 200px;

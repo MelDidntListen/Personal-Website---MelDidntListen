@@ -96,7 +96,7 @@ document.querySelectorAll('.clickArt').forEach(button => {
 
 // Event listeners for next and previous buttons
 document.getElementById("nextButton").addEventListener("click", function(event) {
-    event.preventDefault(); // Prevent default action
+    // event.preventDefault(); // Prevent default action
     nextPiece();
 });
 document.getElementById("prevButton").addEventListener("click", function(event) {

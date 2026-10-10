@@ -18,16 +18,29 @@ nav
     margin-left:-1%;
     height:40px !important;
     z-index: 990 !important;
+    padding-right: 2%;
 }
 
-nav a
-{
-    margin-right:15px !important;
+nav a {
+    float: none;
+    margin: 0;
 }
 
-.navParticular
+.navLinks {
+    position: absolute;
+    top: 10px;
+    right: 25px;
+    display: flex;
+    gap: 15px;
+    margin-top:13px;
+    margin-right:26px;
+}
+
+.pageTitle p
 {
-    margin-right: 15px;
+    margin-top:2px;
+    margin-left:30px;
+    font-size: xx-large;
 }
 
 header
@@ -99,6 +112,43 @@ button
 button:hover
 {
     background-color: #6b2946;
+}
+
+.workClassItem
+{
+    background-color: white;
+    float:left;
+    width:100%;
+    margin-bottom:40px;
+}
+
+.workClassItemText
+{
+    float:left;
+    margin-left:10px;
+    margin-top:10px;
+    width: 440px;
+}
+.workClassItem h3
+{
+    color:#33313E;
+    font-size: xx-large;
+    margin-bottom:10px;
+}
+
+.workClassItem p
+{
+    color:#33313E;
+    margin-left: 10px;
+}
+
+.diagonalImage
+{
+    clip-path: polygon(0 0, 100% 0%, 100% 100%, 52% 100%);
+    height:260px;
+    margin-top:-1px;
+    margin-right:-1px;
+    margin-bottom:-5px;
 }
 
 .moreProjects
@@ -312,6 +362,13 @@ a h1
     margin-right:0%;
 }
 
+.buttonHolder
+{
+    float:right;
+    width:200px;
+    margin-left:400px;
+}
+
 .profile
 {
     float:left;
@@ -340,13 +397,23 @@ a h1
 .socials
 {
   width: 200px;
-  margin-top:6%;
+  margin-top:15px;
 }
 
 .socials img
 {
     width:20px;
     height:20px;
+}
+
+.socials a
+{
+    margin-right:15px;
+}
+
+.nameLabel h3
+{
+    margin-bottom: 10px;
 }
 
 .blurb
@@ -691,27 +758,43 @@ and (max-width:800px)
 
     nav
     {
-        padding-top: 10px;
-        padding-left: 10px;
+        padding: 10px;
+        background-color: #9D8BC5;
         width: 100%;
-        height:30px;
+        float:right;
+        margin-top: 0% !important;
+        position: fixed !important;
+        margin-left:-1%;
+        height:80px !important;
+        z-index: 990 !important;
+        padding-right: 2%;
     }
 
-    .navParticular
+    .nav a
     {
-        display: block;
-        width:277px;
-        height: 20px;
-        margin-left: auto;
-        margin-right: auto;
-        margin-top:10px;
-        text-align: center;
-        padding-right: 20px;
+        float: none;
+        margin: 0;
     }
 
-    .navParticular a
+    .navLinks
     {
-        text-align: center;
+        position: absolute;
+        display: flex;
+        top: 50px;
+        right: auto;
+        left:auto;
+        gap:auto;
+        width: 227px;
+        background-color: pink;
+        justify-content:space-evenly;
+    }
+
+    .pageTitle p
+    {
+        margin-top:2px;
+        margin-left:0px;
+        font-size: xx-large;
+        text-align:center;
     }
 
     header
@@ -773,6 +856,11 @@ and (max-width:800px)
         margin-left: -2%;
     }
     
+    .workClassItem
+    {
+        margin-left:2%;
+    }
+
     .item1 
     {
         width: 100%;
@@ -838,6 +926,7 @@ and (max-width:800px)
     .aboutMe
     {
        width: 100%;
+       margin-top: -80px;
     }
 
         .profile
@@ -867,15 +956,18 @@ and (max-width:800px)
 
         .nameLabel
         {
-            float:left;
-            background-color: pink;
+            background-color:pink;
+        }
+
+        .nameLabel h3
+        {
+            /* TODO */
         }
 
         .socials
         {
             width: 200px;
-            margin-top:6%;
-            background-color: green;
+            margin-top:15px;
         }
 
         .socials img
@@ -884,23 +976,33 @@ and (max-width:800px)
             height:20px;
         }
 
+        .socials a
+        {
+            margin-right:15px;
+        }
+
         .blurb
         {
-            float:right;
+            margin-top:20px;
             background-color: #4C9893;
             border-bottom-right-radius: 30px;
-            border-top-right-radius: 30px;
+            border-bottom-left-radius: 30px;
+            border-top-right-radius: 0px;
             padding:2%;
-            width:64%;
-            height: 340px;
+            padding-left:0px;
+            padding-right:0px;
+            width:100%;
+            height: auto;
         }
 
         .blurb p
         {
             font-family: Arial, Helvetica, sans-serif;
             padding: 2%;
-            margin-bottom:6%
+            margin-bottom:6%;
+            line-height: 145%;
         }
+
 
         .blurb h3
         {
@@ -911,7 +1013,7 @@ and (max-width:800px)
 
         .blurb a
         {
-            margin-right:0%;
+            margin-right:5%;
         }
     
 

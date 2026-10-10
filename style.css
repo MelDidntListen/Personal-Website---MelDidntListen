@@ -785,7 +785,6 @@ and (max-width:800px)
         left:auto;
         gap:auto;
         width: 227px;
-        background-color: pink;
         justify-content:space-evenly;
     }
 
@@ -956,7 +955,7 @@ and (max-width:800px)
 
         .nameLabel
         {
-            background-color:pink;
+
         }
 
         .nameLabel h3

@@ -48,17 +48,17 @@ let pieces =
     //     date:'7-12-2024'
     // },
 
-    {
-        name: "Silver - Paint from Reference Practice",
-        id: 'silverTorii',
-        image:"images/gallery/SL_pinterestpractice.png",
-        content:[],
-        medium:[],
-        program:[],
-        genre:[],
-        project:[],
-        date:'2-12-2024'
-    },
+    // {
+    //     name: "Silver - Paint from Reference Practice",
+    //     id: 'silverTorii',
+    //     image:"images/gallery/SL_pinterestpractice.png",
+    //     content:[],
+    //     medium:[],
+    //     program:[],
+    //     genre:[],
+    //     project:[],
+    //     date:'2-12-2024'
+    // },
     
     // delete this template! ============================vvvvvvv ||
    
@@ -76,17 +76,17 @@ let pieces =
     // },
     // delete this template! ============================^^^^^^^^^ ||
 
-    {
-        name: "Red Door - Paint from Reference Practice",
-        id: 'redDoor',
-        image:"images/gallery/red door.png",
-        content:[],
-        medium:[],
-        program:[],
-        genre:[],
-        project:[],
-        date:'2-12-2024'
-    },
+    // {
+    //     name: "Red Door - Paint from Reference Practice",
+    //     id: 'redDoor',
+    //     image:"images/gallery/red door.png",
+    //     content:[],
+    //     medium:[],
+    //     program:[],
+    //     genre:[],
+    //     project:[],
+    //     date:'2-12-2024'
+    // },
     
     {
         name: "Gramophone Pixel",
@@ -680,18 +680,18 @@ let pieces =
         //day - month - year
     },
 
-    {
-        name: "Orzyn | Tour of the Court",
-        id: 'tour court',
-        image:"images/gallery/tour court.png",
-        content:[],
-        medium:[],
-        program:[],
-        genre:[],
-        project:[],
-        date:'2-12-2024'
-        //day - month - year
-    },
+    // {
+    //     name: "Orzyn | Tour of the Court",
+    //     id: 'tour court',
+    //     image:"images/gallery/tour court.png",
+    //     content:[],
+    //     medium:[],
+    //     program:[],
+    //     genre:[],
+    //     project:[],
+    //     date:'2-12-2024'
+    //     //day - month - year
+    // },
 
     {
         name: "Orzyn | The Left Behind",
@@ -810,18 +810,18 @@ let pieces =
         //day - month - year
     },
 
-    {
-        name: "Happy Birthday!",
-        id: 'happy birthday',
-        image:"images/gallery/happy birthday.png",
-        content:[],
-        medium:[],
-        program:[],
-        genre:[],
-        project:[],
-        date:'2-12-2024'
-        //day - month - year
-    },
+    // {
+    //     name: "Happy Birthday!",
+    //     id: 'happy birthday',
+    //     image:"images/gallery/happy birthday.png",
+    //     content:[],
+    //     medium:[],
+    //     program:[],
+    //     genre:[],
+    //     project:[],
+    //     date:'2-12-2024'
+    //     //day - month - year
+    // },
 
     {
         name: "Orzyn | A Family Visit",
@@ -901,18 +901,18 @@ let pieces =
     //     //day - month - year
     // },
 
-    {
-        name: "Pasta | Diane scene concept",
-        id: 'diane death',
-        image:"images/gallery/diane death.png",
-        content:[],
-        medium:[],
-        program:[],
-        genre:[],
-        project:[],
-        date:'2-12-2024'
-        //day - month - year
-    },
+    // {
+    //     name: "Pasta | Diane scene concept",
+    //     id: 'diane death',
+    //     image:"images/gallery/diane death.png",
+    //     content:[],
+    //     medium:[],
+    //     program:[],
+    //     genre:[],
+    //     project:[],
+    //     date:'2-12-2024'
+    //     //day - month - year
+    // },
 
     {
         name: "Pasta | Interrogation",
@@ -1096,18 +1096,18 @@ let pieces =
         //day - month - year
     },
 
-    {
-        name: "Sprigatto Love Fanart",
-        id: 'Sprigatto Love',
-        image:"images/gallery/Sprigatto Love.png",
-        content:[],
-        medium:[],
-        program:[],
-        genre:[],
-        project:[],
-        date:'2-12-2024'
-        //day - month - year
-    },
+    // {
+    //     name: "Sprigatto Love Fanart",
+    //     id: 'Sprigatto Love',
+    //     image:"images/gallery/Sprigatto Love.png",
+    //     content:[],
+    //     medium:[],
+    //     program:[],
+    //     genre:[],
+    //     project:[],
+    //     date:'2-12-2024'
+    //     //day - month - year
+    // },
 
     {
         name: "Lace | Character Reference",
@@ -1252,31 +1252,31 @@ let pieces =
         //day - month - year
     },
 
-    {
-        name: "MDL | Love Live! Style Card",
-        id: 'idolcard',
-        image:"images/gallery/idolcard.png",
-        content:[],
-        medium:[],
-        program:[],
-        genre:[],
-        project:[],
-        date:'2-12-2024'
-        //day - month - year
-    },
+    // {
+    //     name: "MDL | Love Live! Style Card",
+    //     id: 'idolcard',
+    //     image:"images/gallery/idolcard.png",
+    //     content:[],
+    //     medium:[],
+    //     program:[],
+    //     genre:[],
+    //     project:[],
+    //     date:'2-12-2024'
+    //     //day - month - year
+    // },
 
-    {
-        name: "MDL | Love Live! Style Card - flat",
-        id: 'idol flat',
-        image:"images/gallery/idol flat.png",
-        content:[],
-        medium:[],
-        program:[],
-        genre:[],
-        project:[],
-        date:'2-12-2024'
-        //day - month - year
-    },
+    // {
+    //     name: "MDL | Love Live! Style Card - flat",
+    //     id: 'idol flat',
+    //     image:"images/gallery/idol flat.png",
+    //     content:[],
+    //     medium:[],
+    //     program:[],
+    //     genre:[],
+    //     project:[],
+    //     date:'2-12-2024'
+    //     //day - month - year
+    // },
    
     {
         name: "Izumi Enoki | For OranNotOren",
@@ -1343,18 +1343,18 @@ let pieces =
         //day - month - year
     },   
 
-    {
-        name: "Emote Pack 1",
-        id: 'emotes old',
-        image:"images/gallery/emotes old.png",
-        content:[],
-        medium:[],
-        program:[],
-        genre:[],
-        project:[],
-        date:'2-12-2024'
-        //day - month - year
-    },   
+    // {
+    //     name: "Emote Pack 1",
+    //     id: 'emotes old',
+    //     image:"images/gallery/emotes old.png",
+    //     content:[],
+    //     medium:[],
+    //     program:[],
+    //     genre:[],
+    //     project:[],
+    //     date:'2-12-2024'
+    //     //day - month - year
+    // },   
 
     {
         name: "Sasha 'TV GIRL' | Character Reference",

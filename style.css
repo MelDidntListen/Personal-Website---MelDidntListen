@@ -1299,11 +1299,11 @@ and (max-width:800px)
                         }
                         
                         .item1 img {
-                            height:fit-content;
-                            padding: -2%;
+                            height:auto;
                             width:100% !important; 
-                            display:block;
-                            object-fit:fill;
+                            display:inline;
+                            object-fit:cover;
+                            float: none;
                         }
                         
                         .item1Blurb{

@@ -297,6 +297,12 @@ a h1
     float:left;
 }
 
+.pdfHolder
+{
+    padding-top:60px;
+    margin-bottom:-75px;
+}
+
 
 /*===========================/[ index page ]\==========================*/
 /**/
